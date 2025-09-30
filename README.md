@@ -1,4 +1,4 @@
-# Three Assignment |  Laravel | Docker
+# Three |  Laravel | Docker
 <hr>
 
 ##  Prerequisites
