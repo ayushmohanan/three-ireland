@@ -55,6 +55,13 @@
     
        mv .env.example .env
     
+    ```
+
+    ```bash
+    
+       cd laravel-app
+       mv .env.example .env
+    
     ```  
 
 4. ### Install the necessary dependencies by running
