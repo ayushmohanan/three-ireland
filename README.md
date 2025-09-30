@@ -52,12 +52,15 @@
 3. ### In the backend folder rename env.example to .env
    
     ```bash
+    /***** Important Root Folder ****/
     
        mv .env.example .env
     
     ```
 
     ```bash
+
+     /***** Important -inside  laravel-app folder ****/
     
        cd laravel-app
        mv .env.example .env
@@ -78,6 +81,8 @@
     ```bash
     
       npm install
+
+      npm run build
     
    ```
  
