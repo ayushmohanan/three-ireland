@@ -1,0 +1,18 @@
+includes:
+    - vendor/larastan/larastan/extension.neon
+
+parameters:
+    level: 7
+    paths:
+        - app
+
+    ignoreErrors:
+        - '#uses generic trait Illuminate\\Database\\Eloquent\\Factories\\HasFactory but does not specify its types: TFactory#'
+        - '#has no return type specified#'
+        - '#has no type specified#'
+        - '#property\.notFound#'
+        - '#nullsafe\.neverNull#'
+        - '#larastan\.relationExistence#'
+        - '#missingType\.return#'
+        - '#missingType\.property#'
+        - '#assign\.propertyType#'
